@@ -47,7 +47,7 @@ export default function ImageGrid() {
                 key={image.id}
                 className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow"
               >
-                <img
+                <Image
                   src={image.download_url}
                   alt={`Photo by ${image.author}`}
                   className="w-full h-64 object-cover"
