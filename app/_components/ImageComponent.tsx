@@ -2,10 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import {
-  ImageEditSettings,
-  ImageData,
-} from "@/app/_components/TypeDefinitions";
+import { ImageEditSettings } from "@/app/_components/TypeDefinitions";
 import { getEditedImageUrl } from "@/app/_components/ApiCall";
 
 export default function ImageEditor() {
