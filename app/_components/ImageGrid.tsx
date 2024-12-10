@@ -50,6 +50,8 @@ export default function ImageGrid() {
                 <Image
                   src={image.download_url}
                   alt={`Photo by ${image.author}`}
+                  width={1024}
+                  height={333}
                   className="w-full h-64 object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">

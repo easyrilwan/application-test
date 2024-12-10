@@ -137,7 +137,7 @@ export default function ImageEditor() {
             <Image
               src={imageUrl}
               alt="Preview"
-              className="w-full rounded shadow-lg"
+              className="w-full h-full rounded shadow-lg"
             />
           )}
         </div>
