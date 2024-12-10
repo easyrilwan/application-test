@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { ImageEditSettings } from "@/app/_components/TypeDefinitions";
 import { getEditedImageUrl } from "@/app/_components/ApiCall";
+import Image from "next/image";
 
 export default function ImageEditor() {
   const router = useRouter();
@@ -133,7 +134,7 @@ export default function ImageEditor() {
 
         <div className="relative">
           {imageUrl && (
-            <img
+            <Image
               src={imageUrl}
               alt="Preview"
               className="w-full rounded shadow-lg"
