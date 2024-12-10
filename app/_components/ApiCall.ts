@@ -1,4 +1,7 @@
-import { ImageData } from "@/app/_components/TypeDefinitions";
+import {
+  ImageData,
+  ImageEditSettings,
+} from "@/app/_components/TypeDefinitions";
 
 export const fetchImages = async (
   page: number = 1,
